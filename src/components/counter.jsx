@@ -14,7 +14,7 @@ class Counter extends Component {
 
     // -------------------- Second way of binding this is with arrow function ------------
     handleIncrement = () => {
-        this.setState({ value: this.state.count + 1})
+        this.setState({ value: this.state.value + 1})
     };
 
     render() {
